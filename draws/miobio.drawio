@@ -1,6 +1,6 @@
-<mxfile modified="2022-02-12T11:39:54.094Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="AjriuQseEQZnU7v8Yf8R" version="16.5.6" type="github">
+<mxfile modified="2022-02-12T12:56:11.555Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="nCoY6p3uI5j_sT6pFLxt" version="16.5.6" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
-    <mxGraphModel dx="1422" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="585" y="123" width="435" height="581" as="geometry" />
         </mxCell>
         <mxCell id="2" value="Architecture: Front Forms &amp;gt; Backend Database" style="fillColor=#4DA1F5;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="60" width="831" height="40" as="geometry" />
+          <mxGeometry x="220" y="50" width="831" height="40" as="geometry" />
         </mxCell>
         <mxCell id="495" value="Landing Client" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;html=1;" parent="1" vertex="1">
           <mxGeometry x="269" y="197.5" width="70" height="85" as="geometry" />
@@ -112,8 +112,8 @@
             <mxPoint x="309" y="250" as="sourcePoint" />
             <mxPoint x="379" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="905" y="730" />
-              <mxPoint x="304" y="730" />
+              <mxPoint x="905" y="690" />
+              <mxPoint x="304" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -235,9 +235,11 @@
             <mxPoint x="825" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FHsYfPul3T1H2HVqNf66-550" value="Google Services&lt;br&gt;Recommender" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;fontSize=11;fontColor=#999999;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="715" y="487.75" width="50" height="48" as="geometry" />
-        </mxCell>
+        <UserObject label="AI Platform Prediction&lt;br&gt;Recommender" link="https://cloud.google.com/ai-platform/prediction/docs" linkTarget="_blank" id="FHsYfPul3T1H2HVqNf66-550">
+          <mxCell style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;fontSize=11;fontColor=#999999;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="715" y="455.75" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="501" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=10;fontColor=#999999;align=left;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="600" width="170" height="60" as="geometry" />
         </mxCell>
@@ -256,7 +258,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="740" y="416" />
-              <mxPoint x="770" y="416" />
             </Array>
             <mxPoint x="705" y="423" as="sourcePoint" />
             <mxPoint x="786.5499999999997" y="423.2500000000002" as="targetPoint" />
@@ -304,6 +305,21 @@
             </Array>
             <mxPoint x="358.05500000000006" y="463.82719999999995" as="sourcePoint" />
             <mxPoint x="427.97000000000025" y="580.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;b&gt;MlOps&lt;/b&gt;" link="https://cloud.google.com/architecture/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build" id="4ezTPoXuKwl87_M7IiKp-516">
+          <mxCell style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_DevOps.svg;fontColor=#999999;" vertex="1" parent="1">
+            <mxGeometry x="560" y="486.75" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4ezTPoXuKwl87_M7IiKp-517" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#4284F3;strokeWidth=2;fontSize=10;fontColor=#999999;align=center;dashed=0;endSize=4;startSize=4;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.04;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4ezTPoXuKwl87_M7IiKp-516" target="FHsYfPul3T1H2HVqNf66-550">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="508" />
+              <mxPoint x="650" y="487" />
+            </Array>
+            <mxPoint x="673.8800000000001" y="423.7944" as="sourcePoint" />
+            <mxPoint x="786.5500000000002" y="416.48" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
